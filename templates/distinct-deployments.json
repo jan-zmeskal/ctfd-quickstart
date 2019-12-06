@@ -12,12 +12,12 @@
         },
         {
             "name": "GIT_REPOSITORY_URL",
-            "value": "https://github.com/CTFd/CTFd",
+            "value": "https://github.com/leistnerova/CTFd",
             "required": true
         },
         {
             "name": "GIT_REFERENCE",
-            "value": "1.2.0",
+            "value": "master",
             "required": true
         },
         {
