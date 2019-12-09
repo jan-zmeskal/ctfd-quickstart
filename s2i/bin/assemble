@@ -8,8 +8,6 @@ set -eo pipefail
 
 mv /tmp/src/* .
 
-yum update -y python python-devel
-
 # Update pip and packaging tools to latest.
 
 pip install -U pip setuptools wheel
