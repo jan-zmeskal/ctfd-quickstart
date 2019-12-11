@@ -160,7 +160,7 @@
                             "namespace": "openshift",
                             "name": "python:${PYTHON_VERSION}"
                         },
-                        "scripts": "https://raw.githubusercontent.com/openshift-evangelists/ctfd-quickstart/master/s2i/bin"
+                        "scripts": "https://raw.githubusercontent.com/jan-zmeskal/ctfd-quickstart/experimenting/s2i/bin"
                     }
                 },
                 "output": {
@@ -547,7 +547,7 @@
                             "from": {
                                 "kind": "ImageStreamTag",
                                 "namespace": "openshift",
-                                "name": "mysql:5.7"
+                                "name": "mariadb:latest"
                             }
                         }
                     }
