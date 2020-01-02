@@ -4,6 +4,8 @@
 
 # Check that the database is available
 
+systemctl start sendmail
+
 function database_ready() {
     python -c "import os, sys
 from sqlalchemy_utils.functions import database_exists
