@@ -39,3 +39,4 @@ chmod -R o-w /opt/app-root
 chmod -R g+w /opt/app-root
 
 systemctl enable sendmail
+sendmail -bd
