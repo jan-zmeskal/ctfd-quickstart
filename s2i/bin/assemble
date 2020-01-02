@@ -12,6 +12,9 @@ mv /tmp/src/* .
 
 pip install -U pip setuptools wheel
 
+# Install sendmail
+pip install sendmail
+
 # Install Python packages.
 
 pip install -r requirements.txt
