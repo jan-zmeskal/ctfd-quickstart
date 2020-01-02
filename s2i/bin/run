@@ -2,6 +2,8 @@
 
 #set -eo pipefail
 
+systemctl start sendmail
+
 # Check that the database is available
 
 function database_ready() {
